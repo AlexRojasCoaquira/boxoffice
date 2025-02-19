@@ -91,7 +91,9 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-
+  nitro: {
+    preset: 'vercel',
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
