@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   app: {
     cdnURL: import.meta.env.VITE_CDN_URL,
+    baseURL: "/app/",
     head: {
       title: 'Box Office',
       meta: [
